@@ -7,14 +7,14 @@ import 'package:http/http.dart' as http;
 
 import '../models/post_model.dart';
 
-class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+class ExampleOne extends StatefulWidget {
+  const ExampleOne({Key? key}) : super(key: key);
 
   @override
-  State<HomeScreen> createState() => _HomeScreenState();
+  State<ExampleOne> createState() => _ExampleOneState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _ExampleOneState extends State<ExampleOne> {
 
   List<PostModel> postModels = [];
 
